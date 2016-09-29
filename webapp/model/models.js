@@ -1,3 +1,4 @@
+/* eslint linebreak-style:0*/
 sap.ui.define([
 	"sap/ui/model/json/JSONModel",
 	"sap/ui/Device"
