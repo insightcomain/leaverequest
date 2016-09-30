@@ -33,5 +33,12 @@
       "xml": "fioriXmlAnalysis",
       "js": "fioriJsValidator"
     }
+  },
+  "mockpreview": {
+    "mockUri": "",
+    "metadataFilePath": "/webapp/mockData.json",
+    "mockRequestsFilePath": "",
+    "loadJSONFiles": true,
+    "loadCustomRequests": false
   }
 }

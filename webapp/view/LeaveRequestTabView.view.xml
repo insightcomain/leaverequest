@@ -1,9 +1,17 @@
-<mvc:View controllerName="insight.controller.LeaveRequestTabView" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
-	xmlns="sap.m">
+<mvc:View xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="insight.controller.LeaveRequestTabView">
 	<App>
 		<pages>
 			<Page title="{i18n>title}">
-				<content></content>
+				<content>
+				    <IconTabBar selectedKey="__xmlview0--__filter1" id="__bar0">
+				        <items>
+				            <IconTabFilter text="Open" icon="sap-icon://calendar" id="__filter5"/>
+				            <IconTabFilter text="Open" count="223" icon="sap-icon://list" id="__filter1"/>
+				            <IconTabFilter text="Account" count="0" icon="sap-icon://account" id="__filter2"/>
+				            <IconTabFilter text="Team" icon="sap-icon://group" id="__filter3"/>
+				            <IconTabFilter text="Outbox" count="0" icon="sap-icon://email" id="__filter4" iconColor="Positive"/></items>
+				    </IconTabBar>
+				</content>
 			</Page>
 		</pages>
 	</App>
